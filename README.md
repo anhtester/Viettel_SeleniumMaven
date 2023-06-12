@@ -1,2 +1,2 @@
 # Viettel_SeleniumMaven
-Project learning Selenium Java với Maven của Viettel teams 2023
+Project learning Selenium Java with Maven for Viettel teams 2023
