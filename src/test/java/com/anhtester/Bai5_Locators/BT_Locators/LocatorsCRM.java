@@ -8,6 +8,7 @@ public class LocatorsCRM {
     public static String inputPassword = "//input[@id='password']";
     public static String buttonLogin = "//button[normalize-space()='Login']";
     public static String linkForgotPassword = "//a[normalize-space()='Forgot Password?']";
+    public static String checkboxRemember = "//input[@id='remember']";
 
     //Trang Dashboard
     public static String menuDashboard = "//ul[@id='side-menu']//span[normalize-space()='Dashboard']";
