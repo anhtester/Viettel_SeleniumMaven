@@ -11,6 +11,14 @@ public class BaseTest {
 
     public static WebDriver driver;
 
+    public static void sleep(double second){
+        try {
+            Thread.sleep((long) (1000*second));
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void createBrowser(){
         //Khởi tạo Browser
         driver = new ChromeDriver();
